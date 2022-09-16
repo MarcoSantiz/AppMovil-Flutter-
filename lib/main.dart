@@ -56,7 +56,8 @@ class _MyHomePageState extends State<MyHomePage> {
                   obscureText: _ocultarPassword,
                   decoration: InputDecoration(
                       label: Text('Contraseña:'),
-                      helperText: 'Tu contraseña de usuario'),
+                      helperText: 'Tu contraseña'),
+                      
                 ),
                 trailing: IconButton(
                   icon: _iconoOjo,
